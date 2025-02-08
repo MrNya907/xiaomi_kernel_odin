@@ -21,10 +21,10 @@ DEFCONFIG="odin_defconfig"
 # 文件名称
 if [ -d ".git" ]; then
 GIT_COMMIT_HASH=$(git rev-parse --short=7 HEAD)
-ZIP_NAME="MIX4-5.4.278-g${GIT_COMMIT_HASH}.zip"
+ZIP_NAME="MIX4-5.4.281-g${GIT_COMMIT_HASH}.zip"
 else
 CURRENT_TIME=$(date '+%Y-%m%d%H%M')
-ZIP_NAME="MIX4-5.4.278-${CURRENT_TIME}.zip"
+ZIP_NAME="MIX4-5.4.281-${CURRENT_TIME}.zip"
 fi
 
 # 字体颜色
